@@ -9,7 +9,16 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Egyptian Colours.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Egyptian Colours" startnode="27" creator="Twine" creator-version="2.8.1" format="Harlowe" format-version="3.3.8" ifid="33AED682-747D-450C-B055-45EBB73F9FA0" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">.video-background {
+<tw-storydata name="Egyptian Colours" startnode="19" creator="Twine" creator-version="2.8.1" format="Harlowe" format-version="3.3.8" ifid="33AED682-747D-450C-B055-45EBB73F9FA0" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body tw-story
+{
+font-family: Courier;
+font-size: 30px;
+}
+
+.align-right{
+  align-items: right
+}
+.video-background {
   position: fixed;
   top: 0;
   left: 0;
@@ -26,6 +35,87 @@
   object-fit: cover;
 }
 
+tw-passage[tags~="Peseshet_talking"] {
+position: absolute;
+left: 3%;
+right: 57%;
+top: 5%;
+bottom: 5%;
+font-size: 18px;
+
+}
+
+tw-passage[tags~="r1o5"] {
+position: absolute;
+left: 62%;
+right: 3%;
+top: 5%;
+bottom: 5%;
+font-size: 18px;
+
+}
+
+tw-passage[tags~="Isis_talking"] {
+position: absolute;
+left: 27%;;
+right: 3%;
+top: 5%;
+bottom: 5%;
+font-size: 18px;
+
+}
+
+tw-passage[tags~="entrance_room3"] {
+position: absolute;
+left: 42%;
+right: 10%;
+top: 5%;
+bottom: 5%;
+font-size: 18px;
+
+}
+
+tw-passage[tags~="Toth_talking"] {
+position: absolute;
+left: 10%;
+right: 42%;
+top: 5%;
+bottom: 5%;
+font-size: 18px;
+
+}
+
+tw-passage[tags~="light"] {
+position: absolute;
+left: 10%;
+right: 42%;
+top: 5%;
+bottom: 5%;
+font-size: 18px;
+
+}
+
+tw-passage[tags~="moisture"] {
+position: absolute;
+left: 10%;
+right: 42%;
+top: 5%;
+bottom: 5%;
+font-size: 18px;
+
+}
+
+tw-passage[tags~="temperature"] {
+position: absolute;
+left: 10%;
+right: 42%;
+top: 5%;
+bottom: 5%;
+font-size: 18px;
+
+}
+
+
 tw-story[tags~="video_bg"] {
   background: no-repeat center center;
   background-size: cover;
@@ -37,230 +127,382 @@ background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/
 background-size:cover;
 }
 
+tw-story[tags~="first_room_entrance"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/first-room-entrance.jpg");
+background-size:cover;
+}
+
 tw-story[tags~="entrance_room1"] {
 background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/main/TwineImages/oggetti_rrom1veri.jpg?raw=true");
 background-size:cover;
 }
 
 tw-story[tags~="r1o1"] {
-background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/main/TwineImages/stanza1ogg1.png?raw=true");
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/stanza1ogg1.jpg");
 background-repeat: no-repeat;
 background-position: center;
 
 }
 tw-story[tags~="R1o2"] {
-background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/main/TwineImages/stanza1ogg2.png?raw=true");
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/stanza1ogg2.jpg");
 background-repeat: no-repeat;
 background-position: center;
 
 }
 tw-story[tags~="r1o3"] {
-background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/main/TwineImages/stanza1ogg3.png?raw=true");
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/stanza1ogg3.jpg");
 background-repeat: no-repeat;
-background-position: center;
+background-position: center top;
+
 }
 tw-story[tags~="r1o4"] {
-background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/main/TwineImages/stanza1ogg4.png?raw=true");
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/stanza1ogg4.jpg");
 background-repeat: no-repeat;
-background-position: center;
+background-position: center top;
 }
 tw-story[tags~="r1o5"] {
-background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/main/TwineImages/stanza1ogg5.png?raw=true");
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/stanza1ogg5.jpg");
 background-repeat: no-repeat;
 background-position: center;
 }
 
-tw-story[tags~="entrance_room4"] {
-background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/main/TwineImages/stanza4(noobj).jpg?raw=true");
+
+tw-story[tags~="minerals"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/main/TwineImages/mineral-overview.png?raw=true");
 background-size:cover;
 }
+
 tw-story[tags~="blu_m"] {
-background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/main/TwineImages/stanza4(noobj).jpg?raw=true");
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/blu-stanza2.png");
 background-size:cover;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="ROOM-1" color="none"></tw-tag><tw-passagedata pid="1" name="ROOM 1" tags="entrance_room1" position="100,200" size="100,100">Upone entering the first room, the visitors see on the wall on the left  a projection of an egyptian god on a black background,  and, adherent to the same wall you see five stands. each with a different artifact that has cleary lost the majority of its color.
+tw-story[tags~="white_m"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/bianco-stanza2.png");
+background-size:cover;
+}
+tw-story[tags~="red_m"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/rosso-stanza2.png");
+background-size:cover;
+}
+tw-story[tags~="green_m"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/verde-stanza2.png");
+background-size:cover;
+}
+tw-story[tags~="yellow_m"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/giallo-stanza2.png");
+background-size:cover;
+}
+tw-story[tags~="black_m"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/nero-stanza2.png");
+background-size:cover;
+}
 
 
+tw-story[tags~="obroom2"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/main/TwineImages/stanza3.png?raw=true");
+background-size:cover;
+}
 
+tw-story[tags~="blue_a"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/statuablu.png");
+background-size:cover;
+}
+tw-story[tags~="yellow_a"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/main/TwineImages/oggetto4-stanza2.png?raw=true");
+background-size:cover;
+}
+tw-story[tags~="green_a"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/main/TwineImages/oggetto2-stanza2.png?raw=true");
+background-size:cover;
+}
+tw-story[tags~="white_a"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/main/TwineImages/oggetto5-stanza2.png?raw=true");
+background-size:cover;
+}
+tw-story[tags~="black_a"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/main/oggett5-stanza2t.png?raw=true");
+background-size:cover;
+}
+tw-story[tags~="red_a"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/oggeto1-stanza2.png");
+background-size:cover;
+}
+tw-story[tags~="entrance_room3"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/main/TwineImages/Room%203%20+%20Thoth.png?raw=true");
+background-size:cover;
+}
 
-[[Anubi speaks ]] 
+tw-story[tags~="first_set"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/3%20stanza_obj1.png");
+background-size:cover;
+}
 
-</tw-passagedata><tw-passagedata pid="2" name="Anubi speaks " tags="video_bg" position="300,200" size="100,100">&lt;div class=&quot;video-background&quot;&gt;
+tw-story[tags~="second_set"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/3%20stanza_obj2.png");
+background-size:cover;
+}
 
-  &lt;video class=&quot;bg-video&quot; autoplay loop muted &gt;
-     &lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/videoanubi.mp4&quot; type=&quot;video/mp4&quot;/&gt;
-    
-  &lt;/video&gt;
+tw-story[tags~="entrance_room5"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/blob/main/TwineImages/stanza5(postit).png?raw=true");
+background-size:cover;
+}
+
+tw-story[tags~="exit"] {
+background-image:url("https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/UscitaFinale.png");
+background-size:cover;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="ROOM-1" color="none"></tw-tag><tw-passagedata pid="1" name=" GREEN mineral" tags="green_m" position="700,400" size="100,100">[[Look at the colored artifact|GREEN artifact]]</tw-passagedata><tw-passagedata pid="2" name=" Learn about the color BLACK" tags="video_bg" position="1000,600" size="100,100">(font:&#39;Papyrus&#39;)[&quot;Black the color of the fertile soil of the Nile represents mystery and rebirth it was extracted from (color:grey)+(text-style:&quot;bold&quot;)[coal] and basalt although associated with death also symbolizes new beginnings and the regeneration of life..&quot;]
+
+[[Look at the black material|BLACK mineral]]
+
+&lt;div class=&quot;video-background&quot;&gt;&lt;video class=&quot;bg-video&quot; autoplay loop muted &gt;&lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/nero.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;/video&gt;
 &lt;/div&gt;
-
-&quot;Welcome, young explorers. I am Anubis, guardian of the realm of the dead. In 
-our ancient Egypt, black represented death, but also renewal and eternal life. Look around, these artifacts tell stories from a bygone time&quot; 
-
-Walk toward the curtains that separate the room you are in and the next one
-
-[[Anubi speaks 2]]  
-
-
-</tw-passagedata><tw-passagedata pid="3" name="enter in ROOM 2" tags="" position="1275,200" size="100,100">You go through the thick curtains and find yourself in a clear and colorfull room, completely different from the previuos one, projected on the walls and floor you see immersive and detailed landscapes from ancient egypt: bright vegetation, interesting characters and colorful and beatiful architecture. Adherent to the left wall you notice five stands with colorfull materials and minerals and, simmetrically, there are olso as many stands beside the right wall. On the pedistals close to the right wall there are artifacts illuminated in order to show specific colors. Above the first artifact another figure, like Anubi from the previus room, moves and starts to talk.
-
-[[on the left]] 
-[[on the right]] 
-
-[[Isis speaks]] </tw-passagedata><tw-passagedata pid="4" name="BLUE " tags="video_bg" position="100,400" size="100,100">&lt;div class=&quot;video-background&quot;&gt;
-
-  &lt;video class=&quot;bg-video&quot; autoplay loop muted &gt;
-     &lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/Blu%20(online-video-cutter.com).mp4&quot; type=&quot;video/mp4&quot;&gt;
-    
-  &lt;/video&gt;
+&lt;audio autoplay  src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Black.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;</tw-passagedata><tw-passagedata pid="3" name=" Learn about the color YELLOW " tags="video_bg" position="550,575" size="100,100">&lt;div class=&quot;video-background&quot;&gt;&lt;video class=&quot;bg-video&quot; autoplay loop muted &gt;&lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/Giallo%20(online%20video).mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;/video&gt;
 &lt;/div&gt;
+&lt;audio autoplay  src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Yellow.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
 
-&quot;The blue, the color of the Nile and the sky, represents life and protection. This sacred color was extracted from lapis lazuli, a precious stone found in distant mountains and that you can see on the other wall. The artisans ground the powder lapis lazuli to create pigments that were used to paint statues and amulets. Blue was considered a protective color, capable of banishing evil.&quot;
+(font: &#39;Papyrus&#39;)[&quot;Yellow, the color of gold and the sun, represents immortality and divinity. Gold never loses its splendor, just like the gods. It was used to decorate the tombs of pharaohs and statues of gods, symbolizing eternity and divine power. This color was created with yellow ocher, a natural earth pigment consisting of clay colored by iron oxides.
+(color:yellow)+(text-style:&quot;bold&quot;)[Yellow ocher] has been one of the most used pigments dating back to prehistoric times, available in a variety of shades depending on its origin. Lighter shades of yellow could be burned to produce darker shades.&quot;]
 
-[[BLUE mineral]] 
+(color:#57b000)[[Look at the yellow material|YELLOW mineral]]</tw-passagedata><tw-passagedata pid="4" name="ARTIFACT 1" tags="r1o1" position="550,150" size="100,100">&lt;audio autoplay loop src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Intro.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
 
 
 
 
-</tw-passagedata><tw-passagedata pid="5" name="RED " tags="video_bg" position="100,600" size="100,100">&lt;div class=&quot;video-background&quot;&gt;
 
-  &lt;video class=&quot;bg-video&quot; autoplay loop muted &gt;
-     &lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/Fuoco%20(online-video-cutter.com).mp4&quot; type=&quot;video/mp4&quot;&gt;
-    
-  &lt;/video&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Look the second artifact|ARTIFACT 2]]</tw-passagedata><tw-passagedata pid="5" name="ARTIFACT 2" tags="R1o2" position="550,25" size="100,100">&lt;audio autoplay loop src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Intro.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Look the third artifact|ARTIFACT 3]]</tw-passagedata><tw-passagedata pid="6" name="ARTIFACT 3" tags="r1o3" position="700,25" size="100,100">[[Look the fourth artifact|ARTIFACT 4]]
+&lt;audio autoplay loop src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Intro.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+</tw-passagedata><tw-passagedata pid="7" name="ARTIFACT 4" tags="r1o4" position="850,25" size="100,100">&lt;audio autoplay loop src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Intro.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+[[Look the last artifact|ARTIFACT 5]]</tw-passagedata><tw-passagedata pid="8" name="ARTIFACT 5" tags="r1o5" position="1000,25" size="100,100">&lt;audio autoplay loop src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Intro.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+&lt;audio autoplay  src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Anubi3.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+(font:&#39;Papyrus&#39;)[&quot;Now that you have seen the state of some of the beautiful artifacts of my people, you are redy to embark on the journey of descovering their colors and, more importantly, their meaning and significance.&quot;]
+
+[[Enter in the second room|Second room]]</tw-passagedata><tw-passagedata pid="9" name="BLACK artifact" tags="black_a" position="1300,700" size="100,100">Once finished, Isis points the visitors the next room and salutes the group.
+[[Access the next room|Enter in the anteroom of the third room]]</tw-passagedata><tw-passagedata pid="10" name="BLACK mineral" tags="black_m" position="1150,600" size="100,100">[[Look at the colored artifact|BLACK artifact]]</tw-passagedata><tw-passagedata pid="11" name="BLUE artifact" tags="blue_a" position="400,400" size="100,100">[[Keep listening|Learn about the color RED ]]</tw-passagedata><tw-passagedata pid="12" name="BLUE mineral" tags="blu_m" position="250,400" size="100,100">[[Look at the colored artifact|BLUE artifact]]</tw-passagedata><tw-passagedata pid="13" name="Continue listening" tags="video_bg" position="400,200" size="100,100">&lt;div class=&quot;video-background&quot;&gt;&lt;video class=&quot;bg-video&quot; autoplay loop muted &gt;     &lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/anubi2.mp4&quot; type=&quot;video/mp4&quot;/&gt;&lt;/video&gt;
 &lt;/div&gt;
+&lt;audio autoplay loop src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Intro.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+&lt;audio autoplay src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Anubi2.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+(font: &#39;Papyrus&#39;)[&quot;Look at these statues, children. Once, their colors shone like
+the summer sun. Every detail, every nuance told a story,
+showed our culture and our beliefs. Unfortunately, time
+has faded these wonders, look at them now, deprived of
+their vibrant colors aswell as their profound meaning.&quot;]
 
-&quot;The Red, the color of desert and blood, symbolizes life, strength and victory. It was obtained from hematite, a red stone that artisans finely ground to create an intense red pigment. This color was used to paint the weapons of warriors and the ornaments of queens, to infuse them with power and vitality.&quot;
-While the Goddess explains, a projection of a burning desert and the setting sun appears on the walls. On the floor, a structure simulating flames begins to glow red.
-
-[[RED mineral]]</tw-passagedata><tw-passagedata pid="6" name="GREEN" tags="video_bg" position="475,400" size="100,100"> &lt;div class=&quot;video-background&quot;&gt;
-
-  &lt;video class=&quot;bg-video&quot; autoplay loop muted &gt;
-     &lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/verde.mp4&quot; type=&quot;video/mp4&quot;&gt;
-    
-  &lt;/video&gt;
-&lt;/div&gt;
- 
-
-&quot;The color Green represents fertility, rebirth and health. It was extracted from malachite, a bright green stone symbolizing vegetation and life. The Egyptians believed that green brought prosperity and regeneration, and for this they used it in jewelry and temple decorations.&quot;
+[[Look the first artifact|ARTIFACT 1]]</tw-passagedata><tw-passagedata pid="14" name="Enter in the anteroom of the third room" tags="entrance_room3" position="100,800" size="100,100">&lt;audio autoplay loop src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Degradation.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
 
 
 
-[[ GREEN mineral]]</tw-passagedata><tw-passagedata pid="7" name=" YELLOW " tags="video_bg" position="475,600" size="100,100"> &lt;div class=&quot;video-background&quot;&gt;
 
-  &lt;video class=&quot;bg-video&quot; autoplay loop muted &gt;
-     &lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/verde.mp4&quot; type=&quot;video/mp4&quot;&gt;
-    
-  &lt;/video&gt;
-&lt;/div&gt;
+After surpassing the curtains the group arrives in a smaller and dark room and in front of you you see antoher projection. This time it&#39;s an artifact. The object starts to move! A god appear.
 
-&quot;Yellow, the color of gold and the sun, represents immortality and divinity. Gold never loses its splendor, just like the gods. It was used to decorate the tombs of pharaohs and statues of gods, to symbolize eternity and divine power.
-While the Goddess explains a projection of the shining sun and golden fields appears on the walls. On the floor, a structure representing the sun begins to shine yellow.
+[[Look closer|Watch the projection of  the God ]]</tw-passagedata><tw-passagedata pid="15" name="First room" tags="entrance_room1" position="100,200" size="100,100">Upon entering the first room, the visitors see on the wall a projection of an egyptian god on a black background, and adherent to the same wall they see five stands, each with a different artifact that has cleary lost the majority of its color.
 
-She invites you to look at the next artifact on the pedistal directly on the left, which has a light making the color WHITE visible while moving bove it.
-[[YELLOW mineral]]</tw-passagedata><tw-passagedata pid="8" name="WHITE" tags="video_bg" position="850,400" size="100,100"> &lt;div class=&quot;video-background&quot;&gt;
-
-  &lt;video class=&quot;bg-video&quot; autoplay loop muted &gt;
-     &lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/bianco.mp4&quot; type=&quot;video/mp4&quot;&gt;
-    
-  &lt;/video&gt;
-&lt;/div&gt;
-
-&quot;White a symbol of purity and sacredness, was created using chalk. Artisans used this color to paint the robes of priests and statues of the gods, representing their purity and divinity.&quot;
-While she talks, projected on the walls the gleaming White Crown of Upper Egypt appears, symbolizing purity and royal authority and riests in white linen robes conduct sacred rituals, highlighting their cleanliness and devotion while a white lotus flower blooms on the floor, representing creation and rebirth.
-
-
-[[WHITE mineral]]
-
-</tw-passagedata><tw-passagedata pid="9" name="enter ROOM 3" tags="entrance_room3" position="1125,800" size="100,100">After surpassing the curtains you find yourself in a smaller and dark room and in front of you you see antoher projection of a God but, this time, it covers the entire wall in front of you from top to bottom. 
-
-[[Thot speaks]]
+&lt;audio autoplay loop src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Intro.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
 
 
 
 
 
-And so, my fellow seekers, remember this: the colors that adorned our artifacts may fade, but the stories they tell shall endure, echoing through the annals of eternity.
-
-If you go forword, through the opening on your left, you will see the effects of time and the elemnts on our beatiful art.
-
-You walk towords the opening.
-
-</tw-passagedata><tw-passagedata pid="10" name="Enter room 4" tags="entrance_room4" position="100,1000" size="100,100">you enter in a well lit room, in front of you there aretwo pedistals whit reconstructions of artifacts on each one showing how they looked like when they were created.
-Going forward you see another set of three pedistals with a bit of degradation and advancing forword you see another the set of pedistal with the same artifacts even more degraded. The last set of pedistals (the fourth one) displays the real objects that lost their colors.
-
-You approach the firts set of artifacts
-[[FIRST SET]]
 
 
-</tw-passagedata><tw-passagedata pid="11" name="enter ROOM 5" tags="" position="725,1000" size="100,100">there are three tables with post its and pens and you are invitetd to write the idea you got a bout the experience and stick it to the wall.
 
-</tw-passagedata><tw-passagedata pid="12" name="Thot speaks" tags="" position="725,800" size="100,100">&quot;Thoth: Welcome, seekers of knowledge, to the sanctum of wisdom. I am Thoth, the guardian of ancient lore, here to unravel the mystery behind the fading colors and vanishing meanings of our cherished artifacts.
-Behold, the relics of our glorious past, once ablaze with hues that told tales of gods and mortals alike. Yet, as time marches onward, they succumb to the ravages of the elements
+(color:aqua)[[Listen to the God]]</tw-passagedata><tw-passagedata pid="16" name="Enter in the last room" tags="entrance_room5" position="750,1000" size="100,100">Here are some tables with colored sticky notes on them and pens. The group is invitetd to express and write feelings or thoughts developed during the experience and stick them to the wall.
 
-[[LIGHT]]</tw-passagedata><tw-passagedata pid="13" name="LIGHT" tags="" position="600,800" size="100,100">Let us begin with the radiant orb that graces our skies: the sun. Its light, a beacon of life, is also a harbinger of decay. Ultraviolet rays, like silent assailants, infiltrate our pigments, triggering a chemical dance of degradation.
-These pigments, once vibrant and true, now fade into whispers of their former selves, robbed of their brilliance by the sun&#39;s unyielding gaze.
+[[Approach the exit|Last room exit]]</tw-passagedata><tw-passagedata pid="17" name="Second room" tags="" position="1150,25" size="100,100">Visitors go through the thick curtains and find themselves in a clear and colorful room. Projected on the walls and floor there are evocative and detailed landscapes from ancient Egypt: bright vegetation, interesting characters and beatiful coloured architecture.
 
-[[MOISTURE]]</tw-passagedata><tw-passagedata pid="14" name="MOISTURE" tags="" position="475,800" size="100,100">But it is not only the sun that conspires against us. Changes in moisture levels, like the ebb and flow of the sacred Nile, wreak havoc upon our treasures.
-As materials swell and contract, cracks emerge, and pigments detach from their sacred surfaces, leaving behind scars of their struggle against the elements.
-And excessive humidity can promote the growth of mold and fungi, which can damage colors and create permanent stains.
+[[Look left|Pedistals on the left]]</tw-passagedata><tw-passagedata pid="18" name="Enter in the third room" tags="entrance_room4" position="100,1000" size="100,100">The group enters in a well lit room. There are two rows of pedistals with reconstructions of artifacts on each one showing how they looked like when they were created and going further the group will see how they changed during time.
+The last set of pedistals (the fourth one) displays the real objects that lost their colors.
+
+[[Look left|FIRST SET]]
+
+&lt;audio autoplay loop src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Degradation.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;</tw-passagedata><tw-passagedata pid="19" name="Entrance" tags="entrance" position="100,25" size="100,100">
 
 
-[[TEMPERATURE]]</tw-passagedata><tw-passagedata pid="15" name="TEMPERATURE" tags="" position="350,800" size="100,100">But the challenges do not end there, for high temperatures and erratic fluctuations inflict their own brand of torment upon our treasures.
-Like flames consuming parchment, extreme temperatures warp our pigments, leaving behind a distorted reflection of their former glory.
-And let us not forget the unseen foes that lurk in the air we breathe: airborne pollutants.
+The class or the group enters in the temporary exhibition area of the Museo Civico Archelogico. The guide lead the group towards the entrance of the first room.
 
-[[AIR POLLUTION]]</tw-passagedata><tw-passagedata pid="16" name="AIR POLLUTION" tags="" position="225,800" size="100,100">Sulfur dioxide, a silent assassin, triggers chemical reactions that alter our pigments, casting a shadow over their once-pure hues.
+(color:purple)[[Follow the guide|First room entrance]]
+</tw-passagedata><tw-passagedata pid="20" name="FIRST SET" tags="first_set" position="350,1000" size="100,100">&lt;audio autoplay loop src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Degradation.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+
+[[Look right|SECOND SET]]</tw-passagedata><tw-passagedata pid="21" name="GREEN artifact" tags="green_a" position="850,400" size="100,100">[[Listen about the yellow color| Learn about the color YELLOW ]]</tw-passagedata><tw-passagedata pid="22" name="Learn about AIR POLLUTION" tags="video_bg" position="850,800" size="100,100">(font: &#39;Papyrus&#39;)+(color:black)[&quot;(text-style:&quot;bold&quot;)[Sulfur dioxide], a silent assassin, triggers chemical reactions that alter our pigments, (text-style:&quot;bold&quot;)[casting a shadow] over their once-pure hues.
 True, the colors of our ancient Egypt were forged from minerals, more resilient than their organic counterparts, yet still vulnerable to the march of time.
-Egyptian blue and green, steadfast sentinels of our heritage, yet even they bow before the relentless onslaught of time and tide.
+Egyptian blue and green, steadfast sentinels of our heritage, yet even they bow before the relentless onslaught of time and tide.&quot;]
 
-[[MATERIALS]]</tw-passagedata><tw-passagedata pid="17" name="MATERIALS" tags="" position="100,800" size="100,100">Behold Egyptian blue and malachite green. Made of copper silicate and calcium, and copper carbonate, these pigments are stable but not immortal. Humidity, temperature changes, and light slowly fade their brilliance.
-Our binders—egg, gum Arabic, and beeswax—fixed these pigments to our sacred works. Yet, they too degrade. Egg tempera becomes brittle and yellow. Gum Arabic swells or cracks with humidity changes. Beeswax can harden and develop a white haze.
-To preserve these colors, we must control humidity, temperature, and light, and shield them from pollutants.
-The colors of our past may fade, but with wisdom and care, their brilliance can endure. May this knowledge guide you through the sands of time.
+[[Learn about materials|Learn about MATERIALS]]
 
-If you go forword, through the opening on your left, you will see the effects of time and the elemnts on our beatiful art.
-
-[[Enter room 4]]</tw-passagedata><tw-passagedata pid="18" name="FIRST SET" tags="" position="225,1000" size="100,100">You approach the second set of artifacts
-[[SECOND SET]]</tw-passagedata><tw-passagedata pid="19" name="SECOND SET" tags="" position="350,1000" size="100,100">You approach the third set of artifacts
-[[THIRD SET]]</tw-passagedata><tw-passagedata pid="20" name="THIRD SET" tags="" position="475,1000" size="100,100">You approach the fourth set of artifacts
-[[FOURTH SET]]</tw-passagedata><tw-passagedata pid="21" name="FOURTH SET" tags="" position="600,1000" size="100,100">[[enter ROOM 5]]</tw-passagedata><tw-passagedata pid="22" name="ARTIFACT 1" tags="r1o1" position="650,25" size="100,100">[[ARTIFACT 2]]</tw-passagedata><tw-passagedata pid="23" name="ARTIFACT 2" tags="R1o2" position="825,25" size="100,100">[[ARTIFACT 3]]</tw-passagedata><tw-passagedata pid="24" name="ARTIFACT 3" tags="r1o3" position="975,25" size="100,100">[[ARTIFACT 4]]</tw-passagedata><tw-passagedata pid="25" name="ARTIFACT 4" tags="r1o4" position="1125,25" size="100,100">[[ARTIFACT 5]]</tw-passagedata><tw-passagedata pid="26" name="ARTIFACT 5" tags="r1o5" position="1275,25" size="100,100">Now that you have seen the state of some of the beatiuful atartifacts of my people, you are redy to embark on the jurney of descovering thei colors and, more importantly, their meaning and significance.
-
-[[enter in ROOM 2]]</tw-passagedata><tw-passagedata pid="27" name="Entrance" tags="entrance" position="100,25" size="100,100">The class or the group enters the temporary exhibition area of the Museo Archelogico.
-
-
-[[ROOM 1]]</tw-passagedata><tw-passagedata pid="28" name="Anubi speaks 2" tags="video_bg" position="300,25" size="100,100">&lt;div class=&quot;video-background&quot;&gt;
-  &lt;video class=&quot;bg-video&quot; autoplay loop muted &gt;
-     &lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/anubi2.mp4&quot; type=&quot;video/mp4&quot;/&gt;
-    
-  &lt;/video&gt;
+&lt;div class=&quot;video-background&quot;&gt;&lt;video autoplay muted loop class=&quot;bg-video&quot;&gt;&lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/air%20pollution.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;/video&gt;
 &lt;/div&gt;
+&lt;audio autoplay src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Air Pollution.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;</tw-passagedata><tw-passagedata pid="23" name="Learn about LIGHT" tags="video_bg light" position="400,800" size="100,100">(font: &#39;Papyrus&#39;)[&quot;Let us begin with the radiant orb that graces our skies:
+the (text-style:&quot;bold&quot;)[sun].
+Its light, a beacon of life,
+is also a (text-style:&quot;bold&quot;)[harbinger of decay].
+(text-style:&quot;bold&quot;)[Ultraviolet rays],
+like silent assailants,
+infiltrate our pigments,
+triggering a chemical
+dance of degradation.
+These pigments,
+once vibrant and true,
+now fade into whispers of their former selves,
+robbed of their brilliance by the sun&#39;s unyielding gaze.&quot;]
 
-&quot;Look at these statues, children. Once, their colors shone like the summer sun. Every detail, every nuance told a story, showed our culture and our beliefs. Unfortunately, time has faded these wonders, but if you really want to see the magnificence of our colours, continue in the next room.&quot;
+[[Learn about moisture|Learn about MOISTURE]]
 
-[[ARTIFACT 1]]</tw-passagedata><tw-passagedata pid="29" name="Isis speaks" tags="video_bg" position="500,200" size="100,100">&lt;div class=&quot;video-background&quot;&gt;
-  &lt;video autoplay muted loop class=&quot;bg-video&quot;&gt;
-     &lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/isisvideo.mp4&quot; type=&quot;video/mp4&quot;&gt;
-    
-  &lt;/video&gt;
+&lt;div class=&quot;video-background&quot;&gt;&lt;video autoplay muted loop class=&quot;bg-video&quot;&gt;&lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/sunlight.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;/video&gt;
 &lt;/div&gt;
-    
-&quot;Welcome. I am Isis, the goddess of magic and wisdom, revered for my knowledge and protective powers. In ancient Egypt, colors were more than just beautiful; they held deep meanings and magical properties. Today, I will take you on a journey through our vibrant world and reveal how we created these colors from the minerals of the earth.&quot;
+&lt;audio autoplay src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Light.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
 
-[[BLUE ]] </tw-passagedata><tw-passagedata pid="30" name="BLUE mineral" tags="blu_m" position="225,400" size="100,100">[[BLUE artifact]] </tw-passagedata><tw-passagedata pid="31" name="BLUE artifact" tags="" position="350,400" size="100,100">Look at AZURITE 
+</tw-passagedata><tw-passagedata pid="24" name="Learn about MATERIALS" tags="video_bg" position="1000,800" size="100,100">(font: &#39;Papyrus&#39;)[&quot;Behold Egyptian blue and malachite green. Made of copper silicate and calcium, and copper carbonate, these pigments are (text-style:&quot;bold&quot;)[stable but not immortal]. Humidity, temperature changes, and light slowly fade their brilliance.
+Our (text-style:&quot;bold&quot;)[binders]—egg, gum Arabic, and beeswax—fixed these pigments to our sacred works. Yet, they (text-style:&quot;bold&quot;)[degrade], too. Egg tempera becomes brittle and yellow. Gum Arabic swells or cracks with humidity changes. Beeswax can harden and develop a white haze. (text-style:&quot;bold&quot;)[To preserve these colors, we must control humidity, temperature, and light, and shield them from pollutants.] The colors of our past may fade, but (text-style:&quot;bold&quot;)[with wisdom and care, their brilliance can endure.] May this knowledge guide you through the sands of time.
+If you go forword, through the opening on your left, you will see the effects of time and the elements on our beatiful art.&quot;]
 
-[[RED ]] </tw-passagedata><tw-passagedata pid="32" name="RED mineral" tags="" position="225,600" size="100,100">[[RED artifact]]</tw-passagedata><tw-passagedata pid="33" name="RED artifact" tags="" position="350,600" size="100,100">[[GREEN]]</tw-passagedata><tw-passagedata pid="34" name=" GREEN mineral" tags="" position="600,400" size="100,100">[[GREEN artifact]]</tw-passagedata><tw-passagedata pid="35" name="GREEN artifact" tags="" position="725,400" size="100,100">[[ YELLOW ]] </tw-passagedata><tw-passagedata pid="36" name="YELLOW mineral" tags="" position="600,600" size="100,100">[[YELLOW artifact]]</tw-passagedata><tw-passagedata pid="37" name="YELLOW artifact" tags="" position="725,600" size="100,100">[[WHITE]] </tw-passagedata><tw-passagedata pid="38" name="WHITE mineral" tags="" position="975,400" size="100,100">[[WHITE artifact]]</tw-passagedata><tw-passagedata pid="39" name="WHITE artifact" tags="" position="1100,400" size="100,100">[[BLACK]]</tw-passagedata><tw-passagedata pid="40" name="BLACK" tags="video_bg" position="850,600" size="100,100"> &lt;div class=&quot;video-background&quot;&gt;
+[[Enter in the third room]]
 
-  &lt;video class=&quot;bg-video&quot; autoplay loop muted &gt;
-     &lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/nero.mp4&quot; type=&quot;video/mp4&quot;&gt;
-    
-  &lt;/video&gt;
+&lt;div class=&quot;video-background&quot;&gt;&lt;video autoplay muted loop class=&quot;bg-video&quot;&gt;&lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/materials.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;/video&gt;
 &lt;/div&gt;
+&lt;audio autoplay src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Tecknic.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;</tw-passagedata><tw-passagedata pid="25" name="Learn about MOISTURE" tags="video_bg moisture" position="550,800" size="100,100">(font: &#39;Papyrus&#39;)[&quot;But it is not only the sun that conspires against us. Changes in (text-style:&quot;bold&quot;)[moisture levels], like the ebb
+and flow of the sacred Nile, wreak havoc
+upon our treasures. As materials swell
+and contract, cracks emerge, and
+pigments detach from their sacred
+surfaces, leaving behind scars of
+their struggle against the
+elements. And excessive
+humidity can promote
+the (text-style:&quot;bold&quot;)[growth of mold and fungi],
+which can damage colors and
+create permanent stains.&quot;]
 
+[[Learn about temperature|Learn about TEMPERATURE]]
 
+&lt;div class=&quot;video-background&quot;&gt;&lt;video autoplay muted loop class=&quot;bg-video&quot;&gt;&lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/humidity.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;audio autoplay src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Moisture.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;</tw-passagedata><tw-passagedata pid="26" name="Learn about TEMPERATURE" tags="video_bg temperature" position="700,800" size="100,100">(font: &#39;Papyrus&#39;)+(color:black)[&quot;But the challenges do not end there,
+for (text-style:&quot;bold&quot;)[high temperatures] and (text-style:&quot;bold&quot;)[erratic fluctuations]
+inflict their own brand of torment upon our
+treasures. Like (text-style:&quot;bold&quot;)[flames consuming parchment],
+extreme temperatures warp our pigments,
+leaving behind a distorted reflection of
+their former glory. And let us not forget
+the unseen (text-style:&quot;bold&quot;)[foes] that lurk
+in the air we breathe: airborne pollutants.&quot;]
 
+[[Learn about air pollution|Learn about AIR POLLUTION]]
 
-[[BLACK mineral]]
-</tw-passagedata><tw-passagedata pid="41" name="on the left" tags="" position="1400,25" size="100,100"></tw-passagedata><tw-passagedata pid="42" name="on the right" tags="" position="1400,200" size="100,100"></tw-passagedata><tw-passagedata pid="43" name="BLACK mineral" tags="" position="975,600" size="100,100">[[BLACK artifact]]</tw-passagedata><tw-passagedata pid="44" name="BLACK artifact" tags="" position="1100,600" size="100,100">[[enter ROOM 3]] </tw-passagedata></tw-storydata>
+&lt;div class=&quot;video-background&quot;&gt;&lt;video autoplay muted loop class=&quot;bg-video&quot;&gt;&lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/temperature.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;audio autoplay src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Temperature.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;</tw-passagedata><tw-passagedata pid="27" name="Learn about the color BLUE " tags="video_bg" position="100,400" size="100,100">&lt;div class=&quot;video-background&quot;&gt;&lt;video class=&quot;bg-video&quot; autoplay loop muted &gt;&lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/Blu%20(online-video-cutter.com).mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;audio autoplay  src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Blue.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+(font: &#39;Papyrus&#39;)[&quot;The blue, the color of the Nile and
+the sky, represents life and protection.
+This sacred color was extracted from
+(color:navy)+(text-style:&quot;bold&quot;)[lapis lazuli]. The artisans ground the powder
+lapis lazuli to create pigments that were used
+to paint statues and amulets.
+Blue was considered a protective color, capable of banishing evil.&quot;]
+
+(color:yellow)[[Look at the blue ore|BLUE mineral]]</tw-passagedata><tw-passagedata pid="28" name="Learn about the color GREEN" tags="video_bg" position="550,400" size="100,100">&lt;div class=&quot;video-background&quot;&gt;&lt;video class=&quot;bg-video&quot; autoplay loop muted &gt;&lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/verde.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;audio autoplay  src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Green1.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+(font: &#39;Papyrus&#39;)[&quot;The green color represents fertility, rebirth and health. It was extracted from (color:green)+(text-style:&quot;bold&quot;)[malachite], a bright green stone symbolizing vegetation and life. The Egyptians believed that green brought prosperity and regeneration, and for this they used it in jewelry and temple decorations.&quot;]
+
+(color:white)[[Look the green material| GREEN mineral]]</tw-passagedata><tw-passagedata pid="29" name="Learn about the color RED " tags="video_bg" position="100,600" size="100,100">(font: &#39;Papyrus&#39;)[&quot;The red, the color of desert and blood, symbolizes life, strength and victory. It was obtained from (color:red)+(text-style:&quot;bold&quot;)[red ochre], extracted from an ore with oxidated iron in it, that artisans finely ground to create an intense red pigment. This color was used to paint the weapons of warriors and the ornaments of queens, to infuse them with power and vitality.&quot;]
+
+[[Look the red material|RED mineral]]
+
+&lt;div class=&quot;video-background&quot;&gt;&lt;video class=&quot;bg-video&quot; autoplay loop muted &gt;&lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/Fuoco%20(online-video-cutter.com).mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;audio autoplay  src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Red.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;</tw-passagedata><tw-passagedata pid="30" name="Learn about the color WHITE" tags="video_bg" position="1000,400" size="100,100">(font: &#39;Papyrus&#39;)+(color:black)[&quot;White a symbol of purity and sacredness, was created using (color:white)+(text-style:&quot;bold&quot;)[chalk]. Artisans used this color to paint the robes of priests and statues of the gods, representing their purity and divinity.&quot;]
+
+[[Look at the white material|WHITE mineral]]
+
+&lt;div class=&quot;video-background&quot;&gt;&lt;video class=&quot;bg-video&quot; autoplay loop muted &gt;&lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/bianco.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;audio autoplay  src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/White.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;</tw-passagedata><tw-passagedata pid="31" name="Listen to the God" tags="video_bg" position="250,200" size="100,100">&lt;div class=&quot;video-background&quot;&gt;&lt;video class=&quot;bg-video&quot; autoplay loop muted&gt;&lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/videoanubi.mp4&quot; type=&quot;video/mp4&quot;/&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;audio autoplay loop src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Intro.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+&lt;audio autoplay src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Anubi.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+(font: &#39;Papyrus&#39;)[&quot;Welcome, young explorers. I am (text-style:&quot;bold&quot;)[Anubis], guardian of the realm of the dead. In our ancient Egypt, black represented death,
+but also renewal and eternal life. Look around,
+these artifacts tell stories from a bygone time.&quot;]
+
+[[Continue listening]]</tw-passagedata><tw-passagedata pid="32" name="Listen to the Goddess" tags="video_bg Isis_talking" position="1150,200" size="100,100">&lt;div class=&quot;video-background&quot;&gt;&lt;video autoplay muted loop class=&quot;bg-video&quot;&gt;&lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/isisvideo.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;audio autoplay  src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Isis.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+(font: &#39;Papyrus&#39;)[&quot;Welcome, young explorers. I am (text-style:&quot;bold&quot;)[Isis], the goddess of magic and wisdom, revered for my knowledge and protective powers. In ancient Egypt, colors were more than just beautiful; they held deep meanings and magical properties. Today, I will take you on a journey through our vibrant world and reveal how we created these colors from the minerals of the earth.&quot;]
+
+[[Continue|Learn about the color BLUE ]]</tw-passagedata><tw-passagedata pid="33" name="Pedistals on the left" tags="minerals" position="1300,25" size="100,100">
+The group see a series of six objects of different kinds.
+[[Look right|Pedistals on the right]]</tw-passagedata><tw-passagedata pid="34" name="Pedistals on the right" tags="obroom2" position="1300,200" size="100,100">
+On this side there are other artifacts, something distinguishes one from the other.
+Suddenly one of the statues you saw in the landscape comes to life and starts to talk.
+[[Listen|Listen to the Goddess]]</tw-passagedata><tw-passagedata pid="35" name="RED artifact" tags="red_a" position="400,600" size="100,100">[[Listen about the green color|Learn about the color GREEN]]</tw-passagedata><tw-passagedata pid="36" name="RED mineral" tags="red_m" position="250,600" size="100,100">[[Look at the colored artifact|RED artifact]]</tw-passagedata><tw-passagedata pid="37" name="SECOND SET" tags="second_set" position="550,1000" size="100,100">&lt;audio autoplay loop src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Degradation.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+
+[[Enter in the last room]]</tw-passagedata><tw-passagedata pid="38" name="WHITE artifact" tags="white_a" position="1300,400" size="100,100">[[Listen about the black color| Learn about the color BLACK]]</tw-passagedata><tw-passagedata pid="39" name="WHITE mineral" tags="white_m" position="1150,400" size="100,100">[[Look at the colored artifact|WHITE artifact]]</tw-passagedata><tw-passagedata pid="40" name="Watch the projection of  the God " tags="video_bg Toth_talking" position="250,800" size="100,100">&lt;div class=&quot;video-background&quot;&gt;&lt;video class=&quot;bg-video&quot; autoplay loop muted &gt;&lt;source src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/thotfinale.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;/video&gt;
+&lt;/div&gt;
+&lt;audio autoplay  src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Thoth.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+
+(font: &#39;Papyrus&#39;)[&quot;Greetings, travelers of knowledge. I am (text-style:&quot;bold&quot;)[Thoth], keeper of the secrets of time. In this room, we will explore the mysteries of color degradation, a phenomenon that has fascinated and baffled artists and scholars for centuries. Through my words, you will experience the power of (text-style:&quot;bold&quot;)[time and elements] on the beauty of our ancient treasures. Follow me!&quot;]
+
+[[Learn about light|Learn about LIGHT]]</tw-passagedata><tw-passagedata pid="41" name="YELLOW artifact" tags="yellow_a" position="850,600" size="100,100">[[Listen about the white color|Learn about the color WHITE]]</tw-passagedata><tw-passagedata pid="42" name="YELLOW mineral" tags="yellow_m" position="700,600" size="100,100">[[Look at the colored artifact|YELLOW artifact]]</tw-passagedata><tw-passagedata pid="43" name="First room entrance" tags="first_room_entrance" position="250,25" size="100,100">The group is in front of the entrance of the first room. The guide invite all to watch the screen on the right. Someone was waiting for them...
+
+[[Watch the screen|Peseshet welcoming]]</tw-passagedata><tw-passagedata pid="44" name="Peseshet welcoming" tags="video_bg Peseshet_talking" position="425,25" size="100,100">(font:&#39;Papyrus&#39;)+(text-size: 1)[&quot;Welcome,  explorers!
+My name is Peseshet, I am an Egyptian citizen. For my culture, gods and art are very important. The gods were fundamental in our daily lives because we believed that they governed every aspect of the world, from nature to health, from luck to death. 
+The colors, however, were essential to give life to our works of art and to honor the gods. Today I want to take you to the discovery of a wonderful world that combines the beauty and importance of colors with art. Through this exhibition, we will explore the past and understand how colors made our artwork alive.&quot;]
+
+[[Enter the first room|First room]]
+
+&lt;div class=&quot;video-background&quot;&gt;&lt;video class=&quot;bg-video&quot; autoplay loop muted src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/introEgy.mp4&quot; type=&quot;video/mp4&quot;/&gt;
+&lt;/div&gt;
+&lt;audio autoplay src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Peseshet.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;</tw-passagedata><tw-passagedata pid="45" name="Last room exit" tags="exit" position="900,1000" size="100,100">Oh! There is someone happy, waiting to talk.
+
+[[Look at the screen|Meritamun]]</tw-passagedata><tw-passagedata pid="46" name="Meritamun" tags="meritanum video_bg" position="1075,1000" size="100,100">(font:&#39;Papyrus&#39;)[&quot;Dear visitors,
+
+I am Meritamun, an Egyptian farmer, and I would like to thank you for participating in this extraordinary immersive journey through our history and culture. The exhibition has come to an end, and I hope this experience has enriched and inspired you.
+
+Our culture and values have been a pillar of our civilization, and I sincerely hope you find inspiration in what you have seen and experienced here. May this experience encourage you to reflect on your history and values, and to see the world with new eyes.
+
+Thank you for being a part of this journey. Farewell, and may the knowledge you have acquired continue to illuminate your path.&quot;]
+
+[[Finish]]
+
+&lt;div class=&quot;video-background&quot;&gt;&lt;video class=&quot;bg-video&quot; autoplay loop muted src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/TwineImages/FineEgy.mp4&quot; type=&quot;video/mp4&quot;/&gt;
+&lt;/div&gt;
+&lt;audio autoplay src=&quot;https://github.com/TheColorsOfEgypt/TheColorsOfEgypt/raw/main/Audio/Ultima%20stanza.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;</tw-passagedata><tw-passagedata pid="47" name="Finish" tags="" position="1225,1000" size="100,100">THE END</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
