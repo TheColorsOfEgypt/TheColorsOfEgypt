@@ -6,3 +6,4 @@ Mantainers:
 * Chiara Martina
 * Pietro Tisci
 * Romolo David d'Alessandro
+* Elizabeth Inglis
